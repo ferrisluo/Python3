@@ -25,7 +25,7 @@ while True:
 
 search = input('Please enter the name:')
 
-print(dic_number.get(search))
+print(dic_number.get(search,'The name is not in our records'))
 
 
 
